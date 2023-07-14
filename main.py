@@ -15,7 +15,7 @@ import json
 # 1. 准备好请求的url
 #openai.organization = "YOUR_ORG_ID" # 
 #openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = "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" #要更换成自已的API KEY
+openai.api_key = "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" #要更换成自已的API KEY
 # 查看可以使用的模型列表
 def get_model_list():
     models= openai.Model.list()
